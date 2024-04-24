@@ -1,0 +1,53 @@
+#Lesson_39
+-Number
+-Properties
+-EPSILON
+-MAX_VALUE
+-MIN_VALUE
+-MAX_SAFE_INTEGER
+-MIN_SAFE_INTEGER
+-POSITIVE_INFINITY
+-NEGATIVE_INFINITY
+-NaN
+-Type conversion & coercion
+-string → number
+-Number() orqali str qiymatni num qiymatga aylantirishi mumkin.
+-parseFloat() orqali num qiymatga aylantiradi.
+-parseInt() orqali kiritilgan str qiymatning faqat butun qismini num qiymatga aylantiradi.
+-n\*1 ya'ni str qiymatni 1 ga yoki istalgan num qiymatga ko'paytirish orqali num qiymatga aylantiriladi.
+-+() str qiymatni oldidan + qiymatni qo'yish orqali num qiymatga aylantirish mumkin.
+-number → string
+-String() funksiyasi orqali istalgan num qiymatni str qiymatga aylantirish mumkin.
+-.toString() funksiyasi orqali ham string qiymatga aylantirish mumkin , bunda num qiymat . dan oldin yoziladi.
+-+"" , bunda istalgan num qiymat yonidan + ""; qo'yish orqali str qiymatga aylantiriladi.
+-Comparison operators
+-== bu qiymatlar tengligini tekshiradi.
+-=== bu ham qiymatni ham ma'lumot turini tekshiradi.
+-!= bu qiymatlar teng emasligini tekshiradi.
+-!=== bu ham qaiymatlar teng emasligini ham ma'lumotlar turi bir xil emasligini tekshiradi.
+-> 1 qiymat 2-chisidan kichikligini tekshiradi.
+-< 1 qiymat 2-chisidan kattaligini tekshiradi.
+-<= 1 qiymat 2-chisidan katta yoki tengligini tekshiradi.
+->= 1 qiymat 2-chisidan kichik yoki tengligini tekshiradi.
+-Logical operators
+-&& bu 2 tarafni ham bajarilishi shart degani va bajarilganda true qiymatni qaytaradi , agar bir tarafi bajarilmasa false qiymatni qaytaradi.
+-|| bu 2 tarafning kamida 1 tasi bajarilganda true qiymat qaytaradi . Agar hech qaysi tarafi bajarilmasa false qiymatni qaytaradi.
+-! bu inkor . Agar false qiymatni oldidan qo'yilsa true qiymatni qaytaradi . Agar true qiymatni oldidan qo'yilsa false qiymatni qaytaradi.
+-Truthy and Falsy
+-Falsy
+-undefined
+-null
+-NaN
+-0
+-"" >>> qo'shtirnoq ochilib ichiga hech narsa yozilmasa bu falsy qiymatdir.
+-Truthy
+-{}
+-[]
+--42 >>> manfiy sonlar ham truthy qiymatlarga kiradi.
+-3.14 >>> butun sonlar ham kasr sonlar ham xullas haqiqiy sonlarning barchasi truthy qiymatlardir.
+-Infinity
+--Infinity
+-false
+-0
+-"false" >>> false qiymat ham "false" ya'ni qo'shtirnoq ichiga false deb yozilsa ham truthy qiymat beradi.
+-“ ” >>> qo'shtirnoqlar ichiga probel bilan joy ochilsa ham truthy qiymatni qaytaradi.
